@@ -4,7 +4,7 @@
 https://react-projects-01-lunch-special.netlify.app/
 
 #### 02 Our Tours
-https://react-projects-tours.netlify.app/
+https://react-projects-02-tours.netlify.app/
 
 #### 03 Our Reviews
 https://react-projects-03-reviews.netlify.app/
