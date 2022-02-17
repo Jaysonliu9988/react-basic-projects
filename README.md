@@ -1,4 +1,4 @@
-# react-basic-projects
+# React Basic Projects
 
 #### 01 Lunch Special-Menu
 https://react-projects-01-lunch-special.netlify.app/
