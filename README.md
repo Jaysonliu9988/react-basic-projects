@@ -1,19 +1,28 @@
 # React Basic Projects
 
-#### 01 Lunch Special Menu
+#### useState
+
+
+1. Lunch Special Menu <br>
 https://react-projects-01-lunch-special.netlify.app/
 
-#### 02 Our Tours
+#### useEffect and Conditional Rendering
+
+2. Our Tours<br>
 https://react-projects-02-tours.netlify.app/
 
-#### 03 Our Reviews
+3. Our Reviews<br>
 https://react-projects-03-reviews.netlify.app/
 
-#### 04 Accordion
+4. Accordion<br>
 https://react-projects-04-accordion.netlify.app/
 
-#### 05 Menu
+5. Menu<br>
 https://react-projects-05-menu.netlify.app/
 
-#### 06 Tabs
+6. Tabs<br>
 https://react-projects-06-tabs.netlify.app/
+
+7. Slider<br>
+https://react-projects-07-slider.netlify.app/
+
