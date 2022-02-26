@@ -6,7 +6,15 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Hello World');
+    let amount = parseInt(count);
+    // console.log(count)
+    if (count <= 0) {
+      amount = 1;
+    }
+    if (count > 8){
+      amount =8;
+    }
+    setText(data.slice(0, amount))
   }
   
   return (
@@ -20,9 +28,9 @@ function App() {
         <button type='submit' className='btn'>generate</button>
       </form>
       <article className='lorem-text'>
-        <p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p>
-        <p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem </p>
-
+        {text.map((item, index)=>{
+          return <p key={index}>{item}</p>
+        })}
       </article>
     </section>
     )
