@@ -26,3 +26,7 @@ https://react-projects-06-tabs.netlify.app/
 7. Slider<br>
 https://react-projects-07-slider.netlify.app/
 
+#### Forms
+
+8. Lorem Ipsum Generator<br>
+https://react-projects-08-lorem-ipsum-generator.netlify.app/
