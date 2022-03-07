@@ -13,7 +13,7 @@ function App() {
     e.preventDefault()
     try {
       let colors = new Values(color).all(10)
-      // setList(colors)
+      setList(colors)
       console.log(colors)
     } catch (error) {
       setError(true)
@@ -32,12 +32,23 @@ function App() {
           onChange={(e)=> setColor(e.target.value)} 
           placeholder='#f15025'
           className={`${error ? 'error' : null}`}
-
           ></input>
+          <button className='btn' type='submit'>
+            submit
+          </button>
         </form>
       </section>
       <section className='colors'>
-        <h4>list goes here</h4>
+        {list.map((color, index) => {
+          console.log(color)
+          return (
+            <SingleColor
+              key={index}
+              {...color}
+              index={index}
+            />
+          )
+        })}
       </section>
     </>
   )
