@@ -46,6 +46,7 @@ function App() {
               key={index}
               {...color}
               index={index}
+              hexColor={color.hex}
             />
           )
         })}
