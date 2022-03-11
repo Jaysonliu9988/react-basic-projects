@@ -30,3 +30,6 @@ https://react-projects-07-slider.netlify.app/
 
 8. Lorem Ipsum Generator<br>
 https://react-projects-08-lorem-ipsum-generator.netlify.app/
+
+9. Color Shades Generator<br>
+https://react-projects-09-color-generator.netlify.app/
