@@ -6,6 +6,7 @@ import Error from "./pages/Error"
 
 function App() {
   return (<Router>
+    <nav>Our Navbar</nav>
     <Switch>
       <Route exact path="/">
         <Home />
