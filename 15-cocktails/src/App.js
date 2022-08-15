@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Error from "./pages/Error"
+import Navbar from "./components/Navbar";
 
 function App() {
   return (<Router>
-    <nav>Our Navbar</nav>
+    <Navbar />
     <Switch>
       <Route exact path="/">
         <Home />
