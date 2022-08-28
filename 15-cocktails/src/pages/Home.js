@@ -8,7 +8,8 @@ const Home = () => {
   return (
     <main>
       <SearchForm />
-      <SingleCocktail />
+      <CocktailList />
+      {/* <SingleCocktail /> */}
     </main>
   )
 }
